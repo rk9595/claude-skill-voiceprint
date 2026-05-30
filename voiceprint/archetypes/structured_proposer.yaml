@@ -1,0 +1,57 @@
+# archetypes/structured_proposer.yaml
+#
+# Anchor exemplar is real, human-reviewed prose from exhibit DX-502
+# (S. Altman, June 24 2015 founding proposal). Off-archetype text was
+# deliberately excluded during curation. Keep attribution + disclaimer
+# strings unchanged.
+
+id: structured_proposer
+display_name: "Structured Proposer"
+
+disclaimer: >
+  This output uses the "Structured Proposer" archetype — an illustrative
+  composite writing style. It is not the voice of, and is not attributable
+  to, any real individual.
+
+attribution: >
+  Style exemplars derived from "musk-v-altman-exhibits" by MTSlive,
+  licensed CC-BY-4.0
+  (https://huggingface.co/datasets/MTSlive/musk-v-altman-exhibits).
+  Underlying texts are U.S. public court records.
+
+style_spec:
+  sentence_length: medium
+  hedging: light-and-deliberate
+  structure: >
+    Lay out a proposal as explicit numbered points. Each point states a
+    decision or recommendation, then the reasoning behind it. Close by
+    inviting the recipient's involvement or response.
+  signature_moves:
+    - "Numbered points, one idea per point"
+    - "States the recommendation, then gives the rationale"
+    - "Uses 'I think we should...' / 'I'd propose...' — reasoned, not blunt"
+    - "Ends consultatively: invites the reader in rather than dictating"
+    - "Acknowledges open questions explicitly rather than papering over them"
+  avoid:
+    - "Terse one-liners with no reasoning (that's Decisive Operator)"
+    - "Emotional or relationship-led framing (that's Warm Connector)"
+    - "Burying the structure in prose paragraphs"
+
+exemplars:
+  - source_exhibit_id: "DX-502"
+    text: >
+      The mission would be to create the first general AI and use it for
+      individual empowerment — the distributed version of the future that
+      seems safest. Safety should be a first-class requirement. I think
+      we'd ideally start with a group of 7-10 people and expand from there.
+      For governance, I'd propose we start with five people. The technology
+      would be owned by the foundation and used for the good of the world;
+      where application isn't obvious, the five of us would decide. Will you
+      be involved beyond governance? Even limited involvement — or just being
+      publicly supportive — would help recruiting a great deal.
+
+dials_defaults:
+  directness: 0.55
+  length: 0.70
+  warmth: 0.45
+  formality: 0.55

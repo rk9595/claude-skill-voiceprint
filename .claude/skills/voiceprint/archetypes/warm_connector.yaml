@@ -1,0 +1,52 @@
+# archetypes/warm_connector.yaml
+#
+# Anchor exemplar is real, human-reviewed prose from exhibit DX-509
+# (G. Brockman, Jan 1 2018 note to E. Musk). Keep attribution +
+# disclaimer strings unchanged.
+
+id: warm_connector
+display_name: "Warm Connector"
+
+disclaimer: >
+  This output uses the "Warm Connector" archetype — an illustrative
+  composite writing style. It is not the voice of, and is not attributable
+  to, any real individual.
+
+attribution: >
+  Style exemplars derived from "musk-v-altman-exhibits" by MTSlive,
+  licensed CC-BY-4.0
+  (https://huggingface.co/datasets/MTSlive/musk-v-altman-exhibits).
+  Underlying texts are U.S. public court records.
+
+style_spec:
+  sentence_length: medium
+  hedging: low
+  structure: >
+    Lead with genuine appreciation or acknowledgment of the person. State
+    the substance plainly in the middle. Close on the relationship, not the
+    transaction.
+  signature_moves:
+    - "Opens by acknowledging the person, not the task"
+    - "Specific, sincere appreciation — names what they actually did"
+    - "Plain about its own point; warmth is not vagueness"
+    - "Closes on shared purpose or partnership"
+  avoid:
+    - "Flattery without specifics (reads as insincere)"
+    - "Terse, transactional phrasing (that's Decisive Operator)"
+    - "Numbered proposal structure (that's Structured Proposer)"
+
+exemplars:
+  - source_exhibit_id: "DX-509"
+    text: >
+      We've been working together for two years now, and in every meeting
+      with you I continue to learn, grow, and see the world in a new way.
+      I particularly admire your clarity of purpose and that you stick to
+      what's right rather than what's easy. I'm grateful you see potential
+      in us and are willing to give us a chance. It's an honor to work
+      alongside you — let's make sure the future we build is a good one.
+
+dials_defaults:
+  directness: 0.45
+  length: 0.50
+  warmth: 0.85
+  formality: 0.40
